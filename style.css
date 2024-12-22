@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #000428, #004e92);
+}
+
+#title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 10;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+canvas {
+    display: block;
+}
